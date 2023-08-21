@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: sans-serif;
+    padding: 10px 78px;
+    background-color: #f9f9f9;
+}
+#head{
+    display: flex;
+}
+#head h2 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 35px;
+}
+.menu{
+    margin: 0 135px;
+}
+.menu ul{
+    display: flex;
+    padding: 0 40px;
+}
+.menu li{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    
+    padding: 0 30px;
+
+}
+#sign{
+    background-color: white;
+    border: none;
+   
+}
+#sign a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 13px;
+
+}
+#get{
+    padding: 12px 18px;
+    background-color: rgb(13 143 101);
+    border-radius: 8px;
+    border: none;
+}
+#get a{
+color: white;
+font-size: 15px;
+text-decoration: none;
+
+}
+#content{
+    display: flex;
+}
+.leftside{
+    width: 50%;
+
+}
+.leftside h1{
+    font-size: 69px;
+}
+.leftside h2{
+    margin-top: -33px;
+}
+#enter_email{
+    background-color:rgb(235 235 235);
+    border: none;
+    padding: 16px 40px;
+    
+}
+.leftside button{
+    border: none;
+    background-color: rgb(13 143 101);
+    padding: 13px 20px;
+    margin: 0px 10px;
+}
+#a1{
+    color: white;
+    font-size: 17px;
+}
+#a2{
+    color: rgb(13 143 101);
+}
+.rightside{
+    width: 50%;
+    padding: 74px 10px 2px 103px;
+}
+.left{
+    width: 33%;
+    
+    text-align: center;
+    margin: 20px;
+    padding: 63px 29px;
+    border-radius: 10px;
+}
+#green{
+    border: 2px solid green;
+    box-shadow: 0px 20px 20px 0px green;
+}
+#red{
+    border: 2px solid red;
+    box-shadow: 0px 20px 20px 0px red;
+}
+#blue{
+    border: 2px solid blue;
+    box-shadow: 0px 20px 20px 0px blue;
+}
+.left input{
+    padding: 8px;
+    margin: 13px;
+    border: none;
+    border-radius: 20px;
+}
+.main{
+    margin: 80px;
+    display: flex;
+
+}
+#submit{
+    background-color: green;
+    color: white;
+}
+#sub{
+    color: green;
+}
+#write{
+    color: white;
+    background-color: red;
+}
+#sales{
+    color: white;
+    background-color: blue;
+}
